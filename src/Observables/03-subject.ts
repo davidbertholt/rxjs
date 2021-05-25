@@ -14,7 +14,7 @@ const intervalo$ = new Observable<number> (subscriber => {
     // setTimeout(() => {
     //     subscriber.complete();
     //     console.log("Timeout");
-        
+
     // }, 4000);
 
     return () => {
@@ -26,7 +26,7 @@ const intervalo$ = new Observable<number> (subscriber => {
 /*
 * SUBJECT
 *
-* 1. Casteo multiple
+* 1. Casteo multiple: Muchas subscripciones atadas al subject
 * 2. Tambien es un observer
 * 3. next, error y complete
 *

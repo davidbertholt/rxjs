@@ -1,8 +1,3 @@
-interface Personaje {
-    tipo: string;
-    nombre: string;
-}
-
 export const personajes: Personaje[] = [
     {
         tipo: 'heroe',

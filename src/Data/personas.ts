@@ -1,8 +1,3 @@
-interface Persona {
-    nombre: string;
-    apellido: string;
-}
-
 export const personas: Persona[] = [
     {
         nombre: 'Juan',
